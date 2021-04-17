@@ -240,6 +240,8 @@ html {
         flex-direction: column;
         text-align: center;
     }
+}
+@media (max-width: 600px) {
     .services .services-content .serv.web {
     margin-top: 0;
     }
