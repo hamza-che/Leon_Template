@@ -306,10 +306,6 @@ html {
   margin-bottom: 2rem;
 }
 
-.services .services-content .serv.web {
-  margin-top: 3.5rem;
-}
-
 @media (max-width: 767px) {
   .services .services-content .serv {
     -webkit-box-orient: vertical;
@@ -318,8 +314,21 @@ html {
             flex-direction: column;
     text-align: center;
   }
+}
+
+.services .services-content .serv.web {
+  margin-top: 3.5rem;
+}
+
+@media (max-width: 600px) {
   .services .services-content .serv.web {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 893px) and (max-width: 1080px) {
+  .services .services-content .serv.web {
+    margin-top: 4.5rem;
   }
 }
 
