@@ -315,11 +315,13 @@ html {
     overflow: hidden;
     position: relative;
     cursor: pointer;
+    width: 100%
 }
-.portfolio .cards .card img {
+.portfolio .cards .card-img img {
     max-width: 100%;
     opacity: .6;
     transition: .4s;
+    width: 100%
 }
 .portfolio .cards .card:hover .card-img img {
     transform: scale(1.2);
