@@ -613,7 +613,16 @@ html {
   color: var(--primary-color);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
+  .contact .info .label {
+    font-size: 1.9rem;
+  }
+  .contact .info .link {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
   .contact .info .label {
     font-weight: 700;
     font-size: 2rem;
