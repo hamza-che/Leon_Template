@@ -127,7 +127,7 @@ html {
     padding: 10px;
     display: none;
 }
-.header .links:hover ul {
+.header .links.show-links ul {
     display: block;
 }
 .header .links ul::after {
